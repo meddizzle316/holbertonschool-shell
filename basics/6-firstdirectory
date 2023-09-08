@@ -1,2 +1,2 @@
 #!/bin/bash
-mk /tmp/my_first_directory/
+mk /tmp/my_first_directory: directory
