@@ -1,2 +1,2 @@
-#!/bin/bash
-grep -r js .| rm 
+-!/bin/bash
+grep -r js .| rm -r 
