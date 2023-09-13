@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -cmin 0 | head 
+find . -mtime -1 | head 
