@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -r js .| rm -f 
+find . -name js -type f -delete 
