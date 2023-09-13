@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 0 -type f -delete 
+grep -r js . | rm -iv
