@@ -1,0 +1,2 @@
+#!/bin/bash
+grep bin $PATH | wc -l
