@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#a exercise in the cut command (and maybe the read one?)
+
+while read line
+do 
+	cat /etc/passwd | cut -d ":" -f 1,3,6
+
+done
