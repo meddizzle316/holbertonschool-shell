@@ -13,6 +13,7 @@ do
 		then
 			h=0
 			m=61
+			break
 		fi
 		echo "Hour: $h"
 		m=0
