@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #doing until loops in shell
-myvar=1
-until [ $myvar -le 11 ]
+i=1
+until [ $i -ge 10 ]
 do
-	echo "Best School"
-	myvar=$[myvar + 1]
-done
+        echo "Best School"
+	i=$(( i+1 ))
+
+done	
