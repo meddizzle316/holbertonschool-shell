@@ -4,5 +4,5 @@ myvar=1
 until [ $myvar -le 11 ]
 do
 	echo "Best School"
-	myvar=$((myvar + 1))
+	myvar=$[myvar + 1]
 done
