@@ -1,1 +1,7 @@
+#!/usr/bin/env bash
+#this is working on if statements
 
+if [ -f school ]
+then 
+	echo "The file exists"
+fi
