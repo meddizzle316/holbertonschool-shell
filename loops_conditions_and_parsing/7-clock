@@ -12,6 +12,7 @@ do
 		if [ $h -eq 13 ]
 		then
 			h=0
+			m=61
 		fi
 		echo "Hour: $h"
 		m=0
