@@ -7,12 +7,14 @@ while [ $i -le 60 ]
 do
 	if [ $i -eq 60 ] 
 	then 
-		echo "Hour: $h"
+
 		h=$((h+1))
+		echo "Hour: $h"
 		i=0
 	elif [ $i -eq -1 ]
 	then 
 		echo "Hour: $h"
+		i=0
 	
 	else 
 		echo "$i"
