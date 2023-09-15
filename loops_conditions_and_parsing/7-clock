@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #this is an exercise in while loops 
 
-i=-1
+m=-1
 h=0
-while [ $i -le 60 ]
+while [ $m -le 60 ]
 do
-	if [ $i -eq 60 ] 
+	if [ $m -eq 60 ] 
 	then 
 		
 		h=$((h+1))
@@ -14,17 +14,17 @@ do
 			h=0
 		fi
 		echo "Hour: $h"
-		i=0
-	elif [ $i -eq -1 ]
+		m=0
+	elif [ $m -eq -1 ]
 	then 
 		echo "Hour: $h"
-		i=0
+		m=$((m+1))	
 	
 	else 
-		echo "$i"
+		echo "$m"
 	fi
  	
-	i=$((i+1))
+	m=$((m+1))
 	
 	 
 done
