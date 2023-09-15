@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #doing until loops in shell
 myvar=1
-until [ $myvar -e 11]
+until [ $myvar -le 10 ]
 do
 	echo "Best School"
 	myvar=$(( myvar + 1))
