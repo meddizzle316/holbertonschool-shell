@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #this is an exercise using while loops and elif statements
 i=1
 while [ $i -le 10 ]
