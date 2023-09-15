@@ -2,10 +2,11 @@
 #an exercise in while loops
 
 i=1
-while [ i -le 10 ]
+while [ $i -le 10 ]
 do 
 	echo "Best School"
-	if [ i -e 9 ]
+	i=$(( i+1 ))
+	if [ $i -e 9 ]
 	then 
 		echo "Hi"
 	fi 
