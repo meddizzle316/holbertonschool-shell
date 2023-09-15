@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#this is an exercise to use the case statement
 i=1
 while [ $i -le 20 ] 
 do 
