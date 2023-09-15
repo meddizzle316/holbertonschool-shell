@@ -1,16 +1,25 @@
 #!/usr/bin/env bash
 #this is an exercise in while loops 
 
-i=60
+i=-1
 h=0
-while [ $i -el 60 ]
+while [ $i -le 60 ]
 do
 	if [ $i -eq 60 ] 
 	then 
-		echo "Hour: {$h}"
+		echo "Hour: $h"
 		h=$((h+1))
-	if
-
+		i=0
+	elif [ $i -eq -1 ]
+	then 
+		echo "Hour: $h"
+	
+	else 
+		echo "$i"
+	fi
+ 	
+	i=$((i+1))
+	
 	 
 done
  
