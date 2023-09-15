@@ -1,16 +1,16 @@
 #!/usr/bin/bash
 #this is an exercise using while loops and elif statements
 i=1
-while [ $1 -eq 11 ]
+while [ $i -le 10 ]
 do 
 	i=$((i+1))
-	if [ $1 -eq 4 ]
+	if [ $i -eq 4 ]
 	then 
 		echo "bad luck" 
 	else 
 		echo "Best School" 
 	fi 
-	if [ $1 -eq 8 ]
+	if [ $i -eq 8 ]
 	then 
 		echo "good luck"
 	else 
