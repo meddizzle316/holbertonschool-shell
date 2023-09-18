@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#this is using loops and the cut command 
+
+for x in *
+do 
+	if [ -f "$x" | cut -d "-" ];
+	then 
+		echo "$x" 
+	fi 
+done

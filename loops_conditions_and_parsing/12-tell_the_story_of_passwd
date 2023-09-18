@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#this is an exercise with while loops and changing passwords
+IFS=":" 
+while read -r   
+do
+  echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY and rides $COMMAND/SHELL. $USERID's place is protected by the passcode $PASSWORD, more info about the user here: $USERID INFO"
+
+done < /etc/passwd 

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#this is testing out Savanna's idea
+
+for x in *
+do
+	if [ -f "$x" ]
+	then 
+		echo "$x" | cut -d "-" -f 2 
+	fi
+done

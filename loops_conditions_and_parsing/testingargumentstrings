@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#just testing out how to make a string into a token
+echo "$1"
+#conclusion: putting the statement -- How about this? -- only is considered fully a part of $1 if it is enclosed by '' or "" otherwise the statment How about this? would only return as How even if enclosed by () or {} 
